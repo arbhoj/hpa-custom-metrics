@@ -210,6 +210,6 @@ kubectl -n ${NAMESPACE} delete prometheusrule ingress-request-per-second-${NAMES
 kubectl -n ${NAMESPACE} delete deploy ${APP_NAME}
 kubectl -n ${NAMESPACE} delete service ${SERVICE_NAME}
 kubectl -n ${NAMESPACE} delete configmap mainpage
-kubectl -n kommander-flux delete middleware ${APP_NAME}-stripprefixes
+kubectl -n ${NAMESPACE} delete middleware ${APP_NAME}-stripprefixes
 ```
 
